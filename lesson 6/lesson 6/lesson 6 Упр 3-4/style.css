@@ -1,0 +1,383 @@
+.header_ins{
+    max-width: 1024px;
+    min-height: 100px;
+    padding:0 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    min-height: calc(100vh - 50px);
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    }
+.breadcrumb1 {
+    max-width: 1024px;
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+.zagolovok{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #616161;
+    font-weight: 400;
+ }
+
+.podropis {
+    font-weight: 400;
+    font-size: 16px;
+    color: #616161;
+    }
+.conh2 {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #616161;
+    font-weight: 400;
+}
+h1{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: #616161;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.breadcrumb1 li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size:15px;
+    color: #616161;
+    
+}
+.activebb {
+    text-decoration: none;
+    padding: 5px;
+    font-size:15px;
+    background-color: #dbdbdb;
+    border-left: 1px solid #616161;
+    border-right: 1px solid #616161;
+    opacity: 0.5;
+    
+}
+.menu li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 19px;
+    color: #616161;
+    border-left: 1px solid #616161;
+ }
+.menu li:first-child a {
+    border-left: none;
+}
+
+.menu li a:hover {
+    background-color: #dbdbdb;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+.slider {
+    background: url(img/fone_glav_slider.jpg) no-repeat center top;
+}
+.slider_cat{
+    background: url(img/fone_catal.jpg) no-repeat center top;
+    
+}
+
+.submit {
+	cursor: pointer;
+	border: 1px solid #cecece;
+	background: #f6f6f6;
+	box-shadow: inset 0px 20px 20px #ffffff;
+	border-radius: 8px;
+	padding: 8px 14px;
+	width: 100px;
+}
+.submit:hover {
+	box-shadow: inset 0px -20px 20px #ffffff;
+}
+.submit:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+.slider_contact {
+   background: url(img/fone_contak.jpg) no-repeat center top;
+}
+.slider_ins{
+    max-width: 1024px;
+    height: 534px;
+    margin: auto;
+    padding: 0 35px
+}
+.znkon_ins {
+    max-width: 1024px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0 35px
+}
+
+.znkon {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.footer_ins{
+    max-width: 1024px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 35p
+}
+/*.about, .catalog1, .ponhc, .container  {
+    background: url(img/fone-about.png) repeat-y center top;
+}
+*/
+
+
+.container{
+    background: url(img/fone-about.png) repeat-y center top;
+    
+}
+.about_ins{
+    max-width: 1024px;
+    height:  200px;
+    margin: auto;
+    padding: 0 35px;
+}
+.catalog1_ins {
+    display: flex;
+    max-width: 400px;
+    height:  375px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.ponhc_ins {
+    display: flex;
+    max-width: 1024px;
+    height:  375px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: space-between;
+    align-items: center;
+    align-content:space-between;
+}
+.ponhc_ins1 {
+    display: flex;
+    max-width: 1024px;
+    height: 100px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: space-between;
+    align-items: center;
+    align-content:space-between;
+    
+}
+.ponhc_shtrd {
+    display: flex;
+    max-width: 1024px;
+    height:  375px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: space-between;
+    align-items: center;
+    align-content:space-between;
+    flex-wrap: wrap;
+}
+
+
+.opisanie {
+    display: flex;
+    max-width: 1024px;
+        height:  375px;
+    margin: auto;
+    padding: 0 35px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contakti_ins{
+    display: flex;
+    max-width: 1024px;
+    height:  590px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: center;
+}
+   
+.prodcatal {
+width: 302.6px;
+height:170px;
+}
+
+.footer{
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 35p;
+}
+.nazv_tov a {
+	font-style: italic;
+	font-size: 20px;
+	color: #616161;
+	text-decoration: none;
+    text-align: center;
+}
+.nazv_tov {
+    text-align: center;
+}
+table {
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #000;
+    text-align: center;
+}
+.podpis,.kropis {
+    margin: 35px;
+}
+.kropis  {
+    align-self:center;
+}
+
+.wsbutton {
+    background: #3DB0F1;
+    color: #ffffff;
+    display: table;
+    font-size: 14px;
+    text-decoration: none;
+    margin:0 auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 10px 10px;
+    align-self:center;
+}
+.wsbutton:hover {
+    background: #EB0563;
+    color: #66CC33;
+}
+.wsbutton:active {
+    background:#66CC33;
+    font-size: 18px;
+    color: #EB0563;
+}
+.sostav {
+    position: relative;
+    width: 300px;
+    height: 70px;
+    bottom: 45%;
+    right: 25%;
+    text-align: justify;
+}
+.sostav1 {
+    position: relative;
+    width: 500px;
+    height: 70px;
+    bottom: 45%;
+    right: 22%;
+    text-align: justify;
+}
+.sostavsht {
+    position: relative;
+    width: 300px;
+    height: 70px;
+    top:-30%;
+    left: 60%;
+}
+
+.sostavsp {
+    list-style-type: circle;
+}
+.nadpispo{
+    text-align: center;
+}
+.znak:hover{
+    opacity: 0.5;
+}
+.nadpispo1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.conh2 {
+    text-align: center;
+}
+.adress {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    padding: 4vh 35px; 
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+.fottovar {
+    border-color: #CCFFFF;
+    border-width: medium;
+    border-style: solid;
+}
+.fottovar:hover {
+    border: medium solid transparent;
+}
+textarea, input[type="text"] {
+    text-transform: capitalize;
+}
+input[type="email"]:focus {
+    color: #663399;
+    background-color: #FFFFCC;
+}
+.olvvod {
+    height: 40px;
+    width: 150px;
+    color: rgb(51, 204, 102);
+    font-family: fantasy;
+    text-align: center;
+}
+.previewgl {
+    display: flex;
+    max-width: 1024px;
+    height:  300px;
+    margin: auto;
+    padding: 0 35px; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@media (max-width: 720px) {
+    .header_ins {
+        flex-direction: column;
+}
+    .slider_ins, .slider_cat, .podpis, .sostav1, .sostav, .sostavsht {
+        display: none;
+}
+    .previewgl,.catalog1_ins, .ponhc_ins, .ponhc_shtrd  {
+        flex-direction:column;
+        width: auto;
+        height: auto;
+}
+    .about_ins, .contakti_ins {
+        width: auto;
+        height: auto;
+}
+    .opisanie {
+        padding-top: 5vh;
+        justify-content:center;
+}
+}
